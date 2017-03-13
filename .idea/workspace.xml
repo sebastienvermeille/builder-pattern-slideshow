@@ -2,123 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2346eb6-186d-4aa3-85ba-857201ab3ee4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slides-deck.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/print/paper.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/print/pdf.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/reveal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/beige.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/black.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/blood.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/league.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/moon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/night.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/serif.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/simple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/sky.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/solarized.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/beige.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/black.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/blood.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/league.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/moon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/night.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/serif.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/simple.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/sky.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/solarized.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/source/white.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/template/mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/template/settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/template/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme/white.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/Builder_UML_class_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/Erich Gamma.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/JUnit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/australia-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/forbidden.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/john vlissides.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/no-telescope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/ralph johnson.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/richard helm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/swiss-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/telescope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/usa-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/css/zenburn.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/league-gothic/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/league-gothic/league-gothic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/league-gothic/league-gothic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/league-gothic/league-gothic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/league-gothic/league-gothic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/font/source-sans-pro/source-sans-pro.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/js/classList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/js/head.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/highlight/highlight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/markdown/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/markdown/example.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/markdown/markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/markdown/marked.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/math/math.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/multiplex/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/multiplex/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/multiplex/master.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/multiplex/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/notes-server/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/notes-server/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/notes-server/notes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/notes/notes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/notes/notes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/print-pdf/print-pdf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/search/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/plugin/zoom-js/zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/examples/assets/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/examples/assets/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/examples/barebones.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/examples/embedded-media.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/examples/math.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/examples/slide-backgrounds.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/examples/slide-transitions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/qunit-1.12.0.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/qunit-1.12.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/simple.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-markdown-element-attributes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-markdown-element-attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-markdown-external.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-markdown-external.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-markdown-options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-markdown-options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-markdown-slide-attributes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-markdown-slide-attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-markdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-pdf.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test-pdf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -149,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -168,6 +63,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/LICENSE" />
       </list>
     </option>
   </component>
@@ -304,18 +200,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489426427805</updated>
-      <workItem from="1489426429195" duration="8331000" />
+      <workItem from="1489426429195" duration="8894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8331000" />
+    <option name="totallyTimeSpent" value="8894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021075" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -367,6 +263,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
