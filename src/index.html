@@ -34,24 +34,272 @@
                         <ol>
                             <li class="fragment">Who did it ?</li>
                             <li class="fragment">What does it solve ?</li>
-                            <li class="fragment">Variants in JAVA world</li>
-                            <li class="fragment">Implementations in JAVA</li>
+                            <li class="fragment">Variants</li>
+                            <li class="fragment">Sample in JAVA</li>
                             <li class="fragment">Pro / Cons</li>
                             <li class="fragment">Questions ?</li>
                         </ol>
                     </section>
                 </section>
 				<section>
-					<section>Who did it ?
-                        <section>Test</section>
-                        <section data-markdown>
-                            <script type="text/template">
-                                - Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
-                                - Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
-                            </script>
-                        </section>
-                    </section>
-					<section>Sub section 1</section>
+					<section>
+						<h2>Who did it ?</h2>
+						<h3 class="fragment">GoF (Gang of Four)</h3>
+					</section>
+					<section>
+						<h2>Erich Gamma (@ErichGamma)</h2>
+						<div>
+							<img src="images/Erich%20Gamma.jpg">
+						</div>
+						<ul>
+							<li>Switzerland (Zürich)</li>
+							<li>Ambassador of JUnit</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Richard Helm</h2>
+						<div>
+							<img src="images/richard%20helm.jpg">
+						</div>
+						<ul>
+							<li>Australia</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Ralph Johnson</h2>
+						<div>
+							<img src="images/ralph%20johnson.jpg">
+						</div>
+						<ul>
+							<li>USA</li>
+						</ul>
+					</section>
+					<section>
+						<h2>John Vlissides</h2>
+						<div>
+							<img src="images/john%20vlissides.jpg">
+						</div>
+						<ul>
+							<li>USA</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>What does the Builder Pattern solve ?</h2>
+					</section>
+					<section>
+						<h3>It eradicates the Telelescoping constructor antipattern !</h3>
+						<img src="images/no-telescope.png" height="256px" style="border:none; background-color:transparent;">
+					</section>
+					<section>
+						<p>(Telelescoping constructor antipattern)</p>
+						<hr>
+
+						<pre><code data-trim data-noescape>
+						public Person(String firstName, String lastName) {}
+						</code></pre>
+
+					</section>
+					<section>
+						<p>(Telelescoping constructor antipattern)</p>
+						<hr>
+
+						<pre><code data-trim data-noescape>
+						public Person(String firstName, String lastName,
+							Gender gender
+						) {}
+						</code></pre>
+
+					</section>
+					<section>
+						<p>(Telelescoping constructor antipattern)</p>
+						<hr>
+
+						<pre><code data-trim data-noescape>
+						public Person(String firstName, String lastName,
+							Gender gender,
+							int age
+						) {}
+						</code></pre>
+
+					</section>
+					<section>
+						<p>(Telelescoping constructor antipattern)</p>
+						<hr>
+
+						<pre><code data-trim data-noescape>
+						public Person(String firstName, String lastName,
+							Gender gender,
+							int age,
+							String job
+						) {}
+						</code></pre>
+
+					</section>
+					<section>
+						<p>(Telelescoping constructor antipattern)</p>
+						<hr>
+
+						<pre><code data-trim data-noescape>
+						public Person(String firstName, String lastName,
+							Gender gender,
+							int age,
+							String job,
+							String hobbys
+						) {}
+						</code></pre>
+
+					</section>
+					<section>
+						<p>(Telelescoping constructor antipattern)</p>
+						<hr>
+
+						<pre><code data-trim data-noescape>
+						public Person(String firstName, String lastName,
+							Gender gender,
+							int age,
+							String job,
+							String hobbys,
+							String favouriteMovie
+						) {}
+						</code></pre>
+
+					</section>
+					<section>
+						<p>(Telelescoping constructor antipattern)</p>
+						<hr>
+
+						<pre><code data-trim data-noescape>
+						new Person(String, String, Gender, int, String, String, String);
+
+						new Person("John", null, null, -1, null, null, null); // DOH !
+
+						new Person("Will", "Smith", Gender.MALE, int -1,
+							"cooking", "men in black", "actor") // OUPS !!!
+						</code></pre>
+
+					</section>
+
+					<section>
+						<p style="text-align:left;">Builder pattern builds a complex object using simple objects and <span style="background-color:#1b91ff;">using a step by step approach</span>. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.</p>
+						<p>Source: <a href="https://www.tutorialspoint.com/design_pattern/builder_pattern.htm">tutorialspoint.com</a></p>
+					</section>
+					<section>
+						<p>With builder pattern</p>
+						<pre><code data-trim data-noescape>
+						PersonBuilder builder = new PersonBuilder();
+						Person bob = builder.firstName("Bob")
+                    	.lastName("Builder")
+                    	.age(33)
+                    	.job("Man I love building stuff!")
+                    	.build();
+						</code></pre>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Variants</h1>
+					</section>
+					<section>
+						<pre><code data-trim data-noescape>
+						Address address = new Builder().url("www.google.com").port(80).build();
+						</code></pre>
+
+						<p>What happens if the user of this class tries to create an Address without an url ?</p>
+					</section>
+					<section>
+						<h2>Josh Bloch adaptation</h2>
+
+						<pre><code data-trim data-noescape>
+						Address address = new Builder("www.google.com").port(80).build();
+						// Url is passed in the constructor parameter and is required
+						// -> problem solved!
+						</code></pre>
+
+						<p>Source: <a href="https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683">Effective Java iirc</a></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Sample in JAVA</h1>
+						<pre><code data-trim data-noescape>
+						// Source: https://gist.githubusercontent.com/vojtechruz/1ea4f51a016002bbdd0d493b049140dc/raw/a9c2888f3c36f3dd291d4cc48c4eae83f5b1f055/InnerBuilderExample.java
+						public class Person {
+
+							private final String firstName;
+							private final String lastName;
+							private final String description;
+							private final int age;
+
+							private Person(Builder builder) {
+								firstName = builder.firstName;
+								lastName = builder.lastName;
+								description = builder.description;
+								age = builder.age;
+							}
+
+							public static final class Builder {
+								private String firstName;
+								private String lastName;
+								private String description;
+								private int age;
+
+								public Builder() {
+								}
+
+								public Builder firstName(String val) {
+									firstName = val;
+									return this;
+								}
+
+								public Builder lastName(String val) {
+									lastName = val;
+									return this;
+								}
+
+								public Builder description(String val) {
+									description = val;
+									return this;
+								}
+
+								public Builder age(int val) {
+									age = val;
+									return this;
+								}
+
+								public Person build() {
+									return new Person(this);
+								}
+							}
+						}
+						</code></pre>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Pro / Cons</h1>
+						<ul>
+							<li>+ Immutable objects</li>
+							<li>+ Easier to read</li>
+							<li>+ Easier to instanciate</li>
+							<li>+ Great for DSL languages (we can also order it !) <br/>
+								-> select().where().and().or().join()</li>
+							<li>- Verbose implementation (for the developper)</li>
+							<li>- Harder to maintain (If you forget to add a method to define a new field :/ )</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h2>One more thing</h2>
+					<p>IntelliJ and Eclipse provide plugins to generate those Builders !</p>
+					<p><a href="https://projectlombok.org/features/index.html">Lombok project</a> <3 Simply add @Builder in your class</p>
+				</section>
+				<section>
+					<section>
+						<h1>Questions ?</h1>
+						<h2></h2>
+					</section>
 				</section>
 			</div>
 		</div>
